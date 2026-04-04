@@ -1,0 +1,10 @@
+[project]
+name = "sms-spam-collection-dataset"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = [
+    "ipykernel>=6.31.0",
+    "jupyter>=1.1.1",
+    "nltk>=3.9.2",
+    "pandas>=2.3.3",
+]

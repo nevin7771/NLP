@@ -1,0 +1,7 @@
+.venv/
+.cache/
+.ipython/
+.jupyter/
+.ipynb_checkpoints/
+.nltk_data/
+__pycache__/
