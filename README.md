@@ -48,3 +48,11 @@ uv run jupyter nbconvert --to notebook --execute --inplace day1_nlp_spam.ipynb
 ## Next (Day 2)
 - Convert cleaned text into numerical features using TF-IDF
 - Train first baseline classifier (e.g., Naive Bayes)
+
+## Day 2 notebook
+- File: `day2_nlp_tfidf_model.ipynb`
+- Includes:
+  - TF-IDF feature engineering
+  - Naive Bayes training
+  - Accuracy and classification report
+  - Custom message prediction demo
