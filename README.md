@@ -56,3 +56,11 @@ uv run jupyter nbconvert --to notebook --execute --inplace day1_nlp_spam.ipynb
   - Naive Bayes training
   - Accuracy and classification report
   - Custom message prediction demo
+
+## Day 3 notebook
+- File: `day3_nlp_model_evaluation.ipynb`
+- Includes:
+  - Why accuracy alone is misleading on imbalanced data
+  - Confusion matrix + classification report (precision, recall, F1)
+  - Naive Bayes vs Logistic Regression vs LR with `class_weight='balanced'`
+  - Side-by-side comparison table (accuracy vs spam metrics)
