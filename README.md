@@ -64,3 +64,13 @@ uv run jupyter nbconvert --to notebook --execute --inplace day1_nlp_spam.ipynb
   - Confusion matrix + classification report (precision, recall, F1)
   - Naive Bayes vs Logistic Regression vs LR with `class_weight='balanced'`
   - Side-by-side comparison table (accuracy vs spam metrics)
+
+## Day 4 — Streamlit app
+- Files: `app.py`, `nlp_utils.py`
+- Notebook guide: `day4_streamlit_app.ipynb` (how to run + what to demo)
+- Run:
+  ```bash
+  uv sync
+  uv run streamlit run app.py
+  ```
+- The app shows **HAM/SPAM** and **class probabilities** for pasted text (same preprocessing as earlier days; model uses balanced Logistic Regression + TF-IDF).

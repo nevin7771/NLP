@@ -8,4 +8,5 @@ dependencies = [
     "nltk>=3.9.2",
     "pandas>=2.3.3",
     "scikit-learn>=1.6.1",
+    "streamlit>=1.50.0",
 ]
