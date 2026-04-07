@@ -74,3 +74,13 @@ uv run jupyter nbconvert --to notebook --execute --inplace day1_nlp_spam.ipynb
   uv run streamlit run app.py
   ```
 - The app shows **HAM/SPAM** and **class probabilities** for pasted text (same preprocessing as earlier days; model uses balanced Logistic Regression + TF-IDF).
+
+### Deploy on Streamlit Community Cloud
+Use [Streamlit Community Cloud](https://share.streamlit.io/) (sign in with GitHub).
+
+1. Push this repo to GitHub. Include **`spam.csv`**, **`app.py`**, **`nlp_utils.py`**, **`requirements.txt`**, and **`runtime.txt`** (Cloud uses `requirements.txt` for `pip install` and `runtime.txt` for the Python version).
+2. In the Cloud dashboard, create a **New app** → pick your repo and branch.
+3. Set **Main file path** to `app.py`.
+4. Deploy. First load may take a minute while NLTK resources download (the app falls back to a temp directory if the project folder is not writable).
+
+If the build fails, check the Cloud **Logs** tab for missing files or import errors.

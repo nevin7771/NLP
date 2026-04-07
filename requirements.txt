@@ -1,0 +1,7 @@
+# Minimal deps for Streamlit Community Cloud (app only — no Jupyter).
+# Keep in sync with versions you use locally; `uv sync` still manages the full dev stack via pyproject.toml.
+
+streamlit==1.50.0
+pandas==2.3.3
+scikit-learn==1.6.1
+nltk==3.9.2
